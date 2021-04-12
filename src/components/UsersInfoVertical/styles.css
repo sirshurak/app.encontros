@@ -1,0 +1,12 @@
+#users-info-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+#users-info-vertical h2 {
+    text-align: left;
+}
+
+#users-info-vertical button.link {
+    padding: 10px 0px;
+}

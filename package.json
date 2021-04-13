@@ -27,7 +27,8 @@
   "scripts": {
     "start": "reco serve",
     "build": "reco checkversion && react-scripts build && reco copy && cordova build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "react-scripts test",
+    "coverage": "yarn test -- --coverage --watchAll=true",
     "eject": "react-scripts eject",
     "reactstart": "react-scripts start"
   },
@@ -37,6 +38,10 @@
       "react-app/jest"
     ]
   },
+  "eslintIgnore": [
+    "*.spec.jsx",
+    "*.spec.js"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
@@ -67,6 +72,9 @@
     "cordova-plugin-device": "^2.0.3",
     "cordova-plugin-local-notification": "*",
     "cordova-plugin-whitelist": "^1.3.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-17-updated": "^1.0.2",
+    "enzyme-to-json": "^3.6.2",
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
@@ -75,6 +83,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "jest-enzyme": "^7.1.2",
     "prettier": "^2.2.1"
   },
   "cordova": {

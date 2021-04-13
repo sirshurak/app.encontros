@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersInfoSideSlider component should match shallow snapshop 1`] = `
+<div
+  id="users-info-side-slider"
+>
+  <SideSlider
+    title="Title"
+  >
+    <UserInfoClick
+      key="0"
+      user={
+        Object {
+          "age": 27,
+          "city": "Test City",
+          "gender": "Man",
+          "photo": "https://picsum.photos/200/?image=26",
+          "sexualOrientation": "Heterosexual",
+          "username": "username",
+        }
+      }
+    >
+      <UserInfo
+        age={27}
+        ageTitle="anos"
+        city="Test City"
+        gender="Man"
+        photo="https://picsum.photos/200/?image=26"
+        sexualOrientation="Heterosexual"
+        username="username"
+        variant="horizontal"
+      />
+    </UserInfoClick>
+  </SideSlider>
+</div>
+`;

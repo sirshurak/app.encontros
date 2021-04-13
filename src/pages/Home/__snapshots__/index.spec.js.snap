@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should match shallow snapshop 1`] = `
+<div
+  className="home"
+>
+  <header
+    className="app-header"
+  >
+    <h1>
+      Conversas
+    </h1>
+  </header>
+  <UsersChatSideSlider
+    ageTitle="anos"
+    title="Te curtiram "
+  />
+  <UsersInfoVertical
+    ageTitle="anos"
+    title="Conversas"
+  />
+</div>
+`;

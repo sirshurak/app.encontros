@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo component should match shallow horizontal snapshop 1`] = `
+<section
+  className="horizontal"
+  id="user-to-chat"
+>
+  <figure>
+    <img
+      alt=""
+      src="https://picsum.photos/200/?image=26"
+    />
+  </figure>
+  <div
+    className="info"
+  >
+    <h3
+      className="username"
+    >
+      username
+    </h3>
+    <div
+      className="more-info"
+    >
+      <span
+        className="age"
+      >
+        , 
+         
+        27
+         
+        anos
+      </span>
+      <p>
+        <span
+          className="gender"
+        >
+          Man
+        </span>
+        <span
+          className="sexual-orientation"
+        >
+          , 
+          Heterosexual
+        </span>
+      </p>
+      <p>
+        <span
+          className="city"
+        >
+          Test City
+        </span>
+      </p>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`UserInfo component should match shallow vertical snapshop 1`] = `
+<section
+  className="vertical"
+  id="user-to-chat"
+>
+  <figure>
+    <img
+      alt=""
+      src="https://picsum.photos/200/?image=26"
+    />
+  </figure>
+  <div
+    className="info"
+  >
+    <div
+      className="more-info"
+    >
+      <h3
+        className="username"
+      >
+        username
+      </h3>
+      <span
+        className="age"
+      >
+        , 
+         
+        27
+         
+        anos
+      </span>
+      <p>
+        <span
+          className="gender"
+        >
+          Man
+        </span>
+        <span
+          className="sexual-orientation"
+        >
+          , 
+          Heterosexual
+        </span>
+      </p>
+      <p>
+        <span
+          className="city"
+        >
+          Test City
+        </span>
+      </p>
+    </div>
+  </div>
+</section>
+`;

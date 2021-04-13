@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetail component should match shallow snapshop 1`] = `
+<section
+  id="user-detail"
+>
+  <div
+    className="img-box"
+  >
+    <figure>
+      <img
+        alt=""
+        src="https://picsum.photos/200/?image=26"
+      />
+      <div
+        className="bg"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://picsum.photos/200/?image=26\\")",
+          }
+        }
+      />
+    </figure>
+  </div>
+  <h2>
+    username
+  </h2>
+  <p>
+    Test City
+  </p>
+  <div
+    className="more-info"
+  >
+    <div>
+      <p>
+        Man
+      </p>
+      <p>
+        Heterosexual
+      </p>
+    </div>
+    <div>
+      <p>
+        27
+      </p>
+    </div>
+  </div>
+</section>
+`;

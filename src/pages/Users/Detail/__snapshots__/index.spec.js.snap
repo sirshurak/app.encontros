@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersDetail component should match shallow snapshop 1`] = `
+<div
+  className="users-detail"
+>
+  <UserDetail />
+  <GoHome />
+</div>
+`;

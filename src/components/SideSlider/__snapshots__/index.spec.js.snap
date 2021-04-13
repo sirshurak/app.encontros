@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideSlider component should match shallow snapshop 1`] = `
+<section
+  id="side-slider"
+>
+  <h2>
+    Title
+  </h2>
+  <Swiper
+    observeParents={true}
+    observer={true}
+    scrollbar={
+      Object {
+        "draggable": true,
+        "hide": true,
+      }
+    }
+    slidesPerView="auto"
+  >
+    <SwiperSlide
+      key="0"
+    >
+      <span
+        className="item-1"
+        key="1"
+      >
+        item 1
+      </span>
+    </SwiperSlide>
+    <SwiperSlide
+      key="1"
+    >
+      <span
+        className="item-2"
+        key="2"
+      >
+        item 2
+      </span>
+    </SwiperSlide>
+    <SwiperSlide
+      key="2"
+    >
+      <span
+        className="item-3"
+        key="3"
+      >
+        item 3
+      </span>
+    </SwiperSlide>
+  </Swiper>
+</section>
+`;

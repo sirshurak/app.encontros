@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersInfoVertical component should match shallow snapshop 1`] = `
+<section
+  id="users-info-vertical"
+>
+  <Container
+    fluid={false}
+  >
+    <h2>
+      Title
+    </h2>
+    <UserInfoClick
+      key="0"
+      user={
+        Object {
+          "age": 27,
+          "city": "Test City",
+          "gender": "Man",
+          "photo": "https://picsum.photos/200/?image=26",
+          "sexualOrientation": "Heterosexual",
+          "username": "username",
+        }
+      }
+    >
+      <UserInfo
+        age={27}
+        ageTitle="anos"
+        city="Test City"
+        gender="Man"
+        photo="https://picsum.photos/200/?image=26"
+        sexualOrientation="Heterosexual"
+        username="username"
+        variant="vertical"
+      />
+    </UserInfoClick>
+  </Container>
+</section>
+`;

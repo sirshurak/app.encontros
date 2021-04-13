@@ -1,6 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618352412122" clover="3.2.0">
-  <project timestamp="1618352412122" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1618357214879" clover="3.2.0">
+  <project timestamp="1618357214879" name="All files">
+    <metrics statements="52" coveredstatements="52" conditionals="22" coveredconditionals="20" methods="30" coveredmethods="30" elements="104" coveredelements="102" complexity="0" loc="52" ncloc="52" packages="13" files="15" classes="15"/>
+    <package name="src">
+      <metrics statements="28" coveredstatements="28" conditionals="10" coveredconditionals="8" methods="11" coveredmethods="11"/>
+      <file name="App.js" path="C:\Users\vinic\Documents\app.encontros\src\App.js">
+        <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="4" methods="8" coveredmethods="8"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\vinic\Documents\app.encontros\src\index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.js" path="C:\Users\vinic\Documents\app.encontros\src\reportWebVitals.js">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.GoHome">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\GoHome\index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.SideSlider">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\SideSlider\index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.UserDetail">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\UserDetail\index.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.UserInfo">
+      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\UserInfo\index.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.UserInfoClick">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\UserInfoClick\index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.UsersInfoSideSlider">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\UsersInfoSideSlider\index.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.UsersInfoVertical">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\components\UsersInfoVertical\index.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.contexts.AppContext">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="C:\Users\vinic\Documents\app.encontros\src\contexts\AppContext\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.hooks.UseUsers">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.js" path="C:\Users\vinic\Documents\app.encontros\src\hooks\UseUsers\index.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Home">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\pages\Home\index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Users.Detail">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\vinic\Documents\app.encontros\src\pages\Users\Detail\index.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Requester.js" path="C:\Users\vinic\Documents\app.encontros\src\utils\Requester.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

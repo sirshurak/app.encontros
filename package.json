@@ -28,7 +28,7 @@
     "start": "reco serve",
     "build": "reco checkversion && react-scripts build && reco copy && cordova build",
     "test": "react-scripts test",
-    "coverage": "yarn test -- --coverage --watchAll=true",
+    "coverage": "yarn test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "reactstart": "react-scripts start",
     "report-coverage": "codecov"
@@ -85,7 +85,8 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "jest-enzyme": "^7.1.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "regenerator-runtime": "^0.13.7"
   },
   "cordova": {
     "plugins": {

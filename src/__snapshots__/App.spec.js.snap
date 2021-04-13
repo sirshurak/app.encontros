@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should match shallow snapshop 1`] = `
+<div
+  className="App"
+>
+  <ContextProvider
+    value={
+      Object {
+        "changePage": [Function],
+      }
+    }
+  >
+    <main>
+      <Navigator
+        onChangePage={[Function]}
+        onRef={[Function]}
+        top="0px"
+      >
+        <Home
+          backgroundColor="inherit"
+          key="Home"
+          levelPage={0}
+          top="0px"
+        />
+        <UsersDetail
+          backgroundColor="inherit"
+          key="UsersDetail"
+          levelPage={1}
+        />
+      </Navigator>
+    </main>
+    <footer
+      className="footer-menu"
+    >
+      <ul>
+        <li>
+          <button
+            className="active"
+            onClick={[Function]}
+            type="button"
+          >
+            Conversas
+          </button>
+        </li>
+      </ul>
+    </footer>
+  </ContextProvider>
+</div>
+`;

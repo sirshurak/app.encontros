@@ -12,3 +12,4 @@ android-sdk/
 build/
 www/
 coverage/
+codecov.yml

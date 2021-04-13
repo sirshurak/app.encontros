@@ -11,5 +11,4 @@ android-sdk/
 .env
 build/
 www/
-coverage/
 codecov.yml

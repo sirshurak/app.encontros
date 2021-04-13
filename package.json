@@ -30,7 +30,8 @@
     "test": "react-scripts test",
     "coverage": "yarn test -- --coverage --watchAll=true",
     "eject": "react-scripts eject",
-    "reactstart": "react-scripts start"
+    "reactstart": "react-scripts start",
+    "report-coverage": "codecov"
   },
   "eslintConfig": {
     "extends": [

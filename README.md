@@ -4,6 +4,9 @@
   <a href="#" target="_blank">
     <img alt="License: Apache--2.0" src="https://img.shields.io/badge/License-Apache--2.0-yellow.svg" />
   </a>
+  <a href="https://codecov.io/gh/sirshurak/app.encontros">
+    <img src="https://codecov.io/gh/sirshurak/app.encontros/branch/main/graph/badge.svg?token=4153QL6BZK"/>
+  </a>
 </p>
 
 > Aplicativo de encontros on-line.
